@@ -1,9 +1,9 @@
-DROP DATABASE IF EXISTS tuner_api;
-CREATE DATABASE tuner_api;
+DROP DATABASE IF EXISTS songs_api;
+CREATE DATABASE songs_api;
 
-\c tuner_api;
+\c songs_api;
 
-CREATE TABLE tuner (
+CREATE TABLE songs (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
     artist TEXT,
